@@ -1,0 +1,13 @@
+{
+  "name": "ustawnik",
+  "displayName": "Ustawnik",
+  "version": "0.1.0",
+  "description": "Polskie przepisy podatkowe i rachunkowe w oryginalnym brzmieniu, także w wersji obowiązującej w wybranym dniu. Każda odpowiedź ma cytat i link do źródła.",
+  "author": { "name": "SS Design", "url": "https://ssdesign.dev" },
+  "homepage": "https://ustawnik.com/",
+  "privacyPolicyUrl": "https://ustawnik.com/polityka-prywatnosci",
+  "repository": "https://github.com/rraszewski/ustawnik-plugin",
+  "license": "MIT",
+  "keywords": ["podatki", "VAT", "KSeF", "rachunkowość", "biuro rachunkowe", "przepisy"],
+  "icon": ".claude-plugin/icon.png"
+}

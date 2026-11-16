@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ustawnik": {
+      "type": "http",
+      "url": "https://mcp.ustawnik.com/mcp"
+    }
+  }
+}
