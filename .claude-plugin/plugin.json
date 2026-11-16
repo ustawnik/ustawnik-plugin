@@ -6,7 +6,7 @@
   "author": { "name": "SS Design", "url": "https://ssdesign.dev" },
   "homepage": "https://ustawnik.com/",
   "privacyPolicyUrl": "https://ustawnik.com/polityka-prywatnosci",
-  "repository": "https://github.com/rraszewski/ustawnik-plugin",
+  "repository": "https://github.com/ustawnik/ustawnik-plugin",
   "license": "MIT",
   "keywords": ["podatki", "VAT", "KSeF", "rachunkowość", "biuro rachunkowe", "przepisy"],
   "icon": ".claude-plugin/icon.png"
