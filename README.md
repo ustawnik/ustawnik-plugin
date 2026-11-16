@@ -2,20 +2,24 @@
 
 [![mcptry](https://mcptry.com/badge/com.ustawnik/ustawnik)](https://mcptry.com/servers/com.ustawnik/ustawnik)
 
-Polskie przepisy podatkowe i rachunkowe w oryginalnym brzmieniu, także w wersji obowiązującej w wybranym dniu. Każda odpowiedź
-ma cytat i link do źródła.
+Podatki, VAT, KSeF i księgowość: polskie prawo podatkowe i rachunkowe w oryginalnym brzmieniu, także w wersji obowiązującej
+w wybranym dniu. Każda odpowiedź ma cytat i link do źródła.
 
-Z Ustawnikiem Claude pracuje na tekście polskich przepisów podatkowych i rachunkowych. Odpowiedzi na pytania o VAT, CIT, PIT,
-rachunkowość, Ordynację podatkową i KSeF zawierają dokładny przepis, datę stanu prawnego i link do oficjalnego źródła.
+Z Ustawnikiem Claude pracuje na tekście polskich przepisów podatkowych i rachunkowych. Odpowiedzi na pytania o podatek VAT,
+podatki dochodowe CIT i PIT, rachunkowość, Ordynację podatkową i KSeF zawierają dokładny przepis, datę stanu prawnego i link
+do oficjalnego źródła.
+
+Zakres: ustawa o VAT, ustawy o CIT i PIT, ustawa o rachunkowości, Ordynacja podatkowa, rozporządzenia w sprawie KSeF,
+dokumentacja KSeF 2.0 ze strukturą faktury FA(3) i interpretacje podatkowe KIS.
 
 Co Claude może zrobić z Ustawnikiem:
 
 - przytoczyć przepis słowo w słowo, w brzmieniu obowiązującym w wybranym dniu;
 - przeszukać ustawy podatkowe, dokumentację KSeF 2.0, strukturę faktury FA(3) i interpretacje podatkowe KIS (EUREKA);
-- sprawdzić, czy projekt faktury jest zgodny ze strukturą FA(3) i art. 106e ustawy o VAT, zanim trafi do KSeF;
-- policzyć terminy ustawowe, na przykład na złożenie JPK_V7 i zapłatę VAT, z uwzględnieniem weekendów i świąt.
+- sprawdzić, czy faktura jest zgodna ze strukturą FA(3) i art. 106e ustawy o VAT, zanim trafi do KSeF;
+- policzyć terminy ustawowe, na przykład na złożenie JPK_V7 (JPK VAT) i zapłatę VAT, z uwzględnieniem weekendów i świąt.
 
-Ustawnik powstał dla biur rachunkowych. Nie udziela porad podatkowych: każda odpowiedź ma źródło i datę, a decyzję podejmuje
+Ustawnik powstał dla biur rachunkowych, które prowadzą księgowość klientów. Nie udziela porad podatkowych: każda odpowiedź ma źródło i datę, a decyzję podejmuje
 księgowy. Wszystkie narzędzia tylko odczytują dane. Korzystanie jest bezpłatne, z dziennym limitem wywołań na konto.
 
 ## Co zawiera plugin
@@ -53,7 +57,7 @@ Pliki tego repozytorium są na licencji MIT (plik `LICENSE`). Korzystanie z serw
 ## In English
 
 Ustawnik gives Claude the text of Polish tax and accounting law, quoted word for word with the legal-state date and a link to the
-official source. It is built for Polish accounting offices and does not give tax advice. The plugin bundles the Ustawnik remote MCP
+official source. It is built for accounting and bookkeeping offices in Poland and does not give tax advice. The plugin bundles the Ustawnik remote MCP
 server (`https://mcp.ustawnik.com/mcp`, OAuth sign-in with a Google account) and three skills written in Polish: the wording of
 a provision on a given date, an invoice check against the FA(3) structure and Art. 106e of the VAT Act, and KIS tax rulings. The
 plugin runs nothing on your computer. Claude sends the server only tool arguments: a question, a provision number, a date,

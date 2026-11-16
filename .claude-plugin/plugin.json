@@ -2,12 +2,12 @@
   "name": "ustawnik",
   "displayName": "Ustawnik",
   "version": "0.1.0",
-  "description": "Polskie przepisy podatkowe i rachunkowe w oryginalnym brzmieniu, także w wersji obowiązującej w wybranym dniu. Każda odpowiedź ma cytat i link do źródła.",
+  "description": "Podatki, VAT, KSeF i księgowość: polskie prawo podatkowe i rachunkowe w oryginalnym brzmieniu, także w wersji obowiązującej w wybranym dniu. Każda odpowiedź ma cytat i link do źródła.",
   "author": { "name": "SS Design", "url": "https://ssdesign.dev" },
   "homepage": "https://ustawnik.com/",
   "privacyPolicyUrl": "https://ustawnik.com/polityka-prywatnosci",
   "repository": "https://github.com/ustawnik/ustawnik-plugin",
   "license": "MIT",
-  "keywords": ["podatki", "VAT", "KSeF", "rachunkowość", "biuro rachunkowe", "przepisy"],
+  "keywords": ["podatki", "prawo podatkowe", "VAT", "KSeF", "księgowość", "rachunkowość", "biuro rachunkowe", "faktura", "JPK", "Polish tax law"],
   "icon": ".claude-plugin/icon.png"
 }
