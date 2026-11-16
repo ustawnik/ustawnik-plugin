@@ -1,5 +1,7 @@
 # Ustawnik
 
+[![mcptry](https://mcptry.com/badge/com.ustawnik/ustawnik)](https://mcptry.com/servers/com.ustawnik/ustawnik)
+
 Polskie przepisy podatkowe i rachunkowe w oryginalnym brzmieniu, także w wersji obowiązującej w wybranym dniu. Każda odpowiedź
 ma cytat i link do źródła.
 
